@@ -4,6 +4,7 @@ title: Realtime Chat
 date: 2023-01-13
 img: screenshot_realtime_chat.png # Add image post (optional)
 tags: [GraphQL, React, Typescript] # add tag
+repo: https://github.com/bogdan-pechounov/realtime-chat
 ---
 
 Messaging app using GraphQL subscriptions.

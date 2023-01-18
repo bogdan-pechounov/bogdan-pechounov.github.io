@@ -18,6 +18,11 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
+        {% if page.repo %}
+        <a href="{{page.repo}}" target="_blank" rel="noopener noreferrer"
+          >Source code</a
+        >
+        {% endif %}
         <div class="page-date">
           <span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
         </div>
