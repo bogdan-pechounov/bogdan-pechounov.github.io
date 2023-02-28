@@ -1,13 +1,13 @@
 title: Bogdan Pechounov
 description: > # this means to ignore newlines until "baseurl:"
   Portfolio for Bogdan Pechounov
-permalink: ':title/'
+# permalink: ':title/'
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://bogdan-pechounov.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Bogdan Pechounov # add your name
-author-img: profile.jfif # add your photo
+author-img: profile.jpg # add your photo
 about-author: Software Engineer
 social-github: bogdan-pechounov # add your Github handle
 social-linkedin: bogdan-pechounov-4a36331b6 # add your Linkedin handle
