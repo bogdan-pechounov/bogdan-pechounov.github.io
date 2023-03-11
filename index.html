@@ -9,9 +9,16 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <div class="post-links">
+      {% if post.repo %}
+      <a href="{{post.repo}}" target="_blank" class="post-link">Source code</a>
+      {% endif %}
+      {% if post.demo %}
+      <a href="{{post.demo}}" target="_blank" class="post-link">Demo</a>
+      {% endif %}
+    </div>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
   </div>
 </article>
 {% endfor %}

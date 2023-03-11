@@ -5,6 +5,7 @@ date: 2022-12-11
 img: screenshot_home.png # Add image post (optional)
 tags: [Machine Learning, MongoDB, Sass, React] # add tag
 repo: https://github.com/bogdan-pechounov/recommender-systems
+demo: https://movie-recommender-app.onrender.com/
 ---
 
 Visualizing Matrix Factorization on the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/).

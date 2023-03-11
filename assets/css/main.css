@@ -1167,17 +1167,29 @@ footer .copyright {
 }
 
 .post .post-thumbnail {
-  width: 30%;
-  max-width: 100%;
+  /* width: 30%; */
+  min-width: 30%;
+  /* max-width: 100%; */
   /* min-height: 11rem; */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50% 0%;
 }
 
+.post .post-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.post .post-link {
+  color: rgb(2, 165, 210);
+  text-decoration: none;
+}
+
 .post .post-content {
   padding: 1rem;
-  width: 70%;
+  /* width: 70%; */
 }
 
 .post .post-content .post-date,

@@ -4,6 +4,7 @@ title: E-commerce
 img: screenshot_next_prisma.png
 tags: [Next.js, React, Typescript, PostgreSQL, Prisma]
 repo: https://github.com/bogdan-pechounov/next-prisma
+demo: https://next-prisma-bogdan-pechounov.vercel.app/
 ---
 
 Practice using [Next.js](https://nextjs.org/), [Prisma](https://nextjs.org/) with [PostgreSQL](https://www.postgresql.org/) and [React Material UI](https://mui.com/). I used the electronics part of the [Amazon review data](http://jmcauley.ucsd.edu/data/amazon/links.html).
