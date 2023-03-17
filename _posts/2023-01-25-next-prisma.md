@@ -12,7 +12,7 @@ Practice using [Next.js](https://nextjs.org/), [Prisma](https://nextjs.org/) wit
 [Demo](https://next-prisma-bogdan-pechounov.vercel.app/) deployed on [Vercel](https://vercel.com/) and [Supabase](https://supabase.com/) (pauses after a week).
 
 
-<div style="position:relative;width:fit-content;height:fit-content;">
+<div style="position:relative;width:fit-content;height:fit-content;margin:auto">
             <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/LNpeSb2VBTU?utm_source=embed&utm_medium=embed&utm_campaign=watch">
                 <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
             </a>
