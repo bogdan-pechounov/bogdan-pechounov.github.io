@@ -3,31 +3,19 @@ layout: post
 title: Movie Recommendations
 date: 2022-12-11
 img: screenshot_home.png # Add image post (optional)
-tags: [Machine Learning, MongoDB, Sass, React] # add tag
+tags: [Machine Learning, MongoDB, Sass, React] 
 repo: https://github.com/bogdan-pechounov/recommender-systems
 demo: https://movie-recommender-app.onrender.com/
 ---
 
-Visualizing Matrix Factorization on the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/).
+Visualizing Matrix Factorization on the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/) using React, Sass, Node, MongoDB, and Flask.
 
-[Demo](https://movie-recommender-app.onrender.com/) deployed on [Render](https://render.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database). (It takes at least a minute for the apis to start up)
+<div style="position:relative;width:fit-content;height:fit-content;margin:auto">
+            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/DcdIDGWl5O2?utm_source=embed&utm_medium=embed&utm_campaign=watch">
+                <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+            </a>
+            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/DcdIDGWl5O2/embed" width="640" height="360"></iframe>
+        </div>
+        
+[Demo](https://movie-recommender-app.onrender.com/) deployed on [Render](https://render.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database). (It takes a minute to start up)
 
-![Movie]({{site.baseurl}}/assets/img/screenshot_movie.png)
-
-I wanted to see how the bias correlates with average rating, how the latent features map to the 20 genres in the dataset and whether the calculated similarity between movies made sense.
-
-## References
-
-[TMDB](https://developers.themoviedb.org/3/) for movie details such as image paths
-
-UI inspired by [Tuat Tran Anh](https://www.youtube.com/watch?v=ntYXj9W1Ez8)
-
-[Recommender Systems and Deep Learning in Python](https://www.udemy.com/course/recommender-systems/)
-
-[Logo](https://icon-icons.com/icon/Clip-film-movie-multimedia-play-short-video/81330)
-
-## Notes
-
-Similiratity between movies is calculated using cosine similarity on the feature vectors of the movies.
-
-The scripts used to precompute fields such as trending score and best score can be found in recommender/\_prepopulate. "\_edited.csv" indicates that there are additional rows mapping the user and movie ids to the ids used by the model. These files can be produced with "preprocess.py" on the original MovieLens data.

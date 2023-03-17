@@ -15,19 +15,11 @@ The goal of this project is to practice using the following tools and packages:
 
 while deepening my understanding of refresh tokens and csrf attacks.
 
+<div style="position:relative;width:fit-content;height:fit-content;margin:auto;">
+            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/tq21X0bqInR?utm_source=embed&utm_medium=embed&utm_campaign=watch">
+                <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+            </a>
+            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/tq21X0bqInR/embed" width="640" height="360"></iframe>
+        </div>
+
 [Demo](https://refresh-tokens-app.onrender.com/) deployed on Render.
-
-# References
-[Demystifying CORS, CSRF tokens, SameSite & Clickjacking - Web Security](https://michaelzanggl.com/articles/web-security-cors-csrf-samesite/)
-
-[Refresh Token Rotation and Reuse Detection in Node.js JWT Authentication](https://www.youtube.com/watch?v=s-4k5TcGKHg)
-
-[React CSRF Protection Guide: Examples and How to Enable It](https://www.stackhawk.com/blog/react-csrf-protection-guide-examples-and-how-to-enable-it/)
-
-[Double Submit Cookie](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#double-submit-cookie)
-
-[React Testing Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd)
-
-[React Formik Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu)
-
-[NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)](https://www.udemy.com/course/nodejs-the-complete-guide/)
