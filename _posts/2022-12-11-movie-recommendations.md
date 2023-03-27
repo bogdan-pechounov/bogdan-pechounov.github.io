@@ -3,7 +3,7 @@ layout: post
 title: Movie Recommendations
 date: 2022-12-11
 img: screenshot_home.png # Add image post (optional)
-tags: [Machine Learning, MongoDB, Sass, React]
+tags: [MongoDB, Sass, React]
 repo: https://github.com/bogdan-pechounov/recommender-systems
 demo: https://movie-recommender-app.onrender.com/
 ---
