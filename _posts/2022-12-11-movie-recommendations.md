@@ -3,7 +3,7 @@ layout: post
 title: Movie Recommendations
 date: 2022-12-11
 img: screenshot_home.png # Add image post (optional)
-tags: [Machine Learning, MongoDB, Sass, React] 
+tags: [Machine Learning, MongoDB, Sass, React]
 repo: https://github.com/bogdan-pechounov/recommender-systems
 demo: https://movie-recommender-app.onrender.com/
 ---
@@ -17,5 +17,4 @@ Visualizing Matrix Factorization on the [MovieLens dataset](https://grouplens.or
             <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/DcdIDGWl5O2/embed" width="640" height="360"></iframe>
         </div>
         
-[Demo](https://movie-recommender-app.onrender.com/) deployed on [Render](https://render.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database). (It takes a minute to start up)
-
+[Demo](https://movie-recommender-app.onrender.com/){:target="_blank"} deployed on [Render](https://render.com/) and [MongoDB Atlas](https://www.mongodb.com/atlas/database). (It takes a minute to start up)
