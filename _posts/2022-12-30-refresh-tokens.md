@@ -2,7 +2,7 @@
 layout: post
 title: Refresh Tokens
 date: 2022-12-30
-img: screenshot_refresh_tokens.png # Add image post (optional)
+img: screenshot_refresh_tokens.png
 tags: [Node, React]
 repo: https://github.com/bogdan-pechounov/refresh-tokens
 demo: https://refresh-tokens-app.onrender.com/
