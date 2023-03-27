@@ -13,8 +13,7 @@ social-github: bogdan-pechounov # add your Github handle
 social-linkedin: bogdan-pechounov-4a36331b6 # add your Linkedin handle
 social-email: bogdan.pechounov@outlook.com # add your Email address
 
-# Tracker
-analytics: # Google Analytics
+permalink: /:categories/:year/:month/:day/:title
 
 # Build Settings
 markdown: kramdown

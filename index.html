@@ -8,17 +8,23 @@ layout: main
   {% else %}
   {% endif %}
   <div class="post-content">
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <!-- Title -->
+    <h2 class="post-title">
+      <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+    </h2>
+    <!-- Links -->
     <div class="post-links">
       {% if post.repo %}
-      <a href="{{post.repo}}" target="_blank" class="post-link">Source code</a>
+      <a href="{{post.repo}}" target="_blank" class="post-link">Code</a>
       {% endif %}
       {% if post.demo %}
       <a href="{{post.demo}}" target="_blank" class="post-link">Demo</a>
       {% endif %}
     </div>
-    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
+    <!-- Content -->
+    <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
+    <!-- Date -->
+    <!-- <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span> -->
   </div>
 </article>
 {% endfor %}
