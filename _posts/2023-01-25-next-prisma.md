@@ -17,7 +17,7 @@ Practice using [Next.js](https://nextjs.org/), [Prisma](https://nextjs.org/) wit
 </div> -->
 
 <div style="position:relative;padding-top:56.25%;">
-    <iframe allow="autoplay;" allowfullscreen style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;" src="https://clipchamp.com/watch/tq21X0bqInR/embed"></iframe>
+    <iframe allow="autoplay;" allowfullscreen style="border:none;position:absolute;top:0;left:0;width:100%;height:100%;" src="https://clipchamp.com/watch/LNpeSb2VBTU/embed"></iframe>
 </div>      
         
 [Demo](https://next-prisma-bogdan-pechounov.vercel.app/){:target="_blank"} deployed on [Vercel](https://vercel.com/) and [Supabase](https://supabase.com/) (pauses after a week).
